@@ -1,4 +1,4 @@
-# UDP Communication ![ROS CI](https://github.com/continental/udp_com/workflows/ROS%20CI/badge.svg)
+# UDP Communication ![ROS CI](https://github.com/continental/udp_com/workflows/ROS%20CI/badge.svg) [![ROS Buildfarm](http://build.ros.org/buildStatus/icon?job=Kdev__udp_com__ubuntu_xenial_amd64&build=9)](http://build.ros.org/view/Kdev/job/Kdev__udp_com__ubuntu_xenial_amd64/9/)
 This package was designed as a generic package to assist with interfacing ROS with the UDP transport layer. It provides ROS Services for creating sockets, sending and receiving UDP data.
 
 **Supported platforms/releases**:
@@ -18,7 +18,6 @@ Install like any other ROS package:
 ```
 sudo apt-get install ros-<your-distro>-udp-com
 ```
-**NOTE:** PR's are open to release the udp_com package for each of the distros. Once merged it could be a few weeks before this package is available using the above command.
 
 ### Getting Started
 There are two ways of utlizing this package:
@@ -56,3 +55,7 @@ And now you should be able to run the `udp_com` launch file:
 ```
 roslaunch udp_com udp_com.launch
 ```
+
+
+### Future work
+We are currently working towards open-sourcing a ROS2 version of this driver with the same functionality. Star or watch this repo to stay updated on future releases.
